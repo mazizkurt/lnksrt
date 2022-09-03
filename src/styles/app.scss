@@ -1,0 +1,34 @@
+$theme-colors: (
+  "theme": rgb(30 41 59),
+  "primary": rgb(91, 140, 219),
+  "gray": rgb(148 163 184),
+  "light": white,
+  "danger": rgb(225, 39, 39),
+);
+.fs-7 {
+  font-size: 14px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(30 41 59);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-right: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(135, 147, 163);
+}
+.scroll {
+  overflow-y: scroll;
+}
+@import "~bootstrap/scss/bootstrap";
